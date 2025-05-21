@@ -15,9 +15,9 @@ return {
       zls = {
         filetypes = { "zig", "zon" },
         settings = {
-          zls = {enable_snippets = false, -- Enables snippet completions when the client supports them
+          zls = {
             enable_argument_placeholders = false, -- Enables function argument placeholder completions
-                      },
+          },
         },
       },
     },
